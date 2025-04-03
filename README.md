@@ -66,5 +66,5 @@ Como parte de mi aprendizaje continuo, planeo:
 
 - Mejorar mis habilidades en CSS y diseño web
 - Aprender JavaScript para crear interactividad
-- Desarrollar el juego "Número Secreto" como mi próximo proyecto
+- Desarrollar el juego "Número Secreto" como próximo proyecto para trabajo final
 - Añadir más proyectos a mi portafolio a medida que los vaya creando
