@@ -30,8 +30,8 @@ Este portafolio digital es mi primer proyecto web, desarrollado únicamente con 
 
 ## 🔗 Enlaces del Proyecto
 
-- **GitHub Repository**: [Link al repositorio]()
-- **Sitio Web Desplegado**: [Link al sitio web en Vercel]()
+- **GitHub Repository**: [Link al repositorio](https://github.com/victorbeltrand/portafolio.git)
+- **Sitio Web Desplegado**: [Link al sitio web en Vercel](https://portafolio-mocha-alpha.vercel.app/)
 
 ## 📝 Proceso de Desarrollo
 
