@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Digital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portafolio</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+                <li><a href="index.html#curriculum">Currículum</a></li>
+                <li class="dropdown">
+                    <a href="index.html#proyectos">Mis Proyectos</a>
+                    <ul class="submenu">
+                        <li><a href="https://proyecto-final-ejemplo.vercel.app" target="_blank">Número Secreto</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Inicio -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Bienvenido a mi portafolio <span>digital</span></h1>
+                    <p>¡Hola! Soy Víctor Beltrand José, estudiante de Ingeniería en Sistemas. Estoy aprendiendo desarrollo web y este es mi primer proyecto usando HTML y CSS. ¡Me encantaría conectar contigo!</p>
+                    
+                </div>
+                <div class="hero-image">
+                    <img src="mi_foto.jpg" alt="Víctor Beltrand José">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi" class="about">
+            <div class="container">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Soy estudiante de Ingeniería en Sistemas y estoy dando mis primeros pasos en el mundo del desarrollo web. Me apasiona la tecnología y estoy entusiasmado por aprender nuevas habilidades que me permitan crear soluciones digitales.</p>
+                        <p>Este portafolio es mi primer proyecto usando HTML y CSS, y representa el inicio de mi viaje como desarrollador web.</p>
+                        <p>Matrícula: 23-EISN-2-054</p>
+                        <h3>Tecnologías que estoy aprendiendo:</h3>
+                        <div class="skills">
+                            <div class="skill-item">
+                                <span>HTML5</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 20%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>CSS3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 20%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 20%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Mis intereses:</h3>
+                        <ul class="interests-list">
+                            <li>Desarrollo web</li>
+                            <li>Aplicaciones móviles</li>
+                            <li>Inteligencia artificial</li>
+                            <li>Videojuegos</li>
+                            <li>Nuevas tecnologías</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Currículum -->
+        <section id="curriculum" class="resume">
+            <div class="container">
+                <h2 class="section-title">Currículum</h2>
+                <div class="resume-content">
+                    <div class="resume-section">
+                        <h3>Educación</h3>
+                        <div class="resume-item">
+                            <h4>Ingeniería en Sistemas Computacionales</h4>
+                            <p class="place">Universidad Dominicana O&M</p>
+                            <p class="date">2023 - Presente</p>
+                            <p>Estudiante de ingeniería, aprendiendo fundamentos de programación, matemáticas y sistemas computacionales.</p>
+                        </div>
+                    </div>
+                    <div class="resume-section">
+                        <h3>Cursos y Certificaciones</h3>
+                        <div class="resume-item">
+                            <h4>Introducción a HTML y CSS</h4>
+                            <p class="place">Curso universitario</p>
+                            <p class="date">2025</p>
+                            <p>Aprendiendo los fundamentos del desarrollo web frontend.</p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Fundamentos de Programación</h4>
+                            <p class="place">Curso universitario</p>
+                            <p class="date">2023</p>
+                            <p>Introducción a la lógica de programación y algoritmos básicos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="proyectos" class="projects">
+            <div class="container">
+                <h2 class="section-title">Mis Proyectos</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="numero-secreto.jpg" alt="Juego Número Secreto" class="project-image">
+                        <div class="project-info">
+                            <h3>Juego Número Secreto</h3>
+                            <p>Proyecto final: un juego sencillo donde debes adivinar un número entre 1 y 10.</p>
+                            <a href="https://proyecto-final-ejemplo.vercel.app" target="_blank" class="btn">Ver Proyecto</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="portafolio.jpg" alt="Este Portafolio" class="project-image">
+                        <div class="project-info">
+                            <h3>Portafolio Digital</h3>
+                            <p>Este mismo portafolio, desarrollado con HTML y CSS como parte de mi aprendizaje en desarrollo web.</p>
+                            <a href="#" class="btn">Estás aquí</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>elnegrovictor273@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+1 (829) 977-1784</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>La Romana, República Dominicana</p>
+                        </div>
+                    </div>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Desarrollado por Víctor Beltrand José - Matrícula: 23-EISN-2-054</p>
+        </div>
+    </footer>
+</body>
+</html>
