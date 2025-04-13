@@ -68,3 +68,11 @@ Como parte de mi aprendizaje continuo, planeo:
 - Aprender JavaScript para crear interactividad
 - Desarrollar el juego "Número Secreto" como próximo proyecto para trabajo final
 - Añadir más proyectos a mi portafolio a medida que los vaya creando
+
+## Fase 2: Página de Proyectos y Juego Número Mágico
+
+Como parte de la segunda fase del proyecto, he desarrollado:
+
+- Una página dedicada a "Mis Proyectos" donde se muestran los trabajos realizados
+- El juego "Número Mágico" donde el usuario debe adivinar un número entre 1 y 10
+- Integración completa con el resto del portafolio
