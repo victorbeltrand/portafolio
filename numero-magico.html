@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Número Mágico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="numero-magico.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portafolio</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+                <li><a href="index.html#curriculum">Currículum</a></li>
+                <li><a href="proyectos.html">Mis Proyectos</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="game-container">
+            <div class="game-card">
+                <h1 class="game-title">Juego del número mágico</h1>
+                
+                <div class="game-content">
+                    <div class="game-info">
+                        <p>Indica un número del 1 al 10</p>
+                        <div class="input-group">
+                            <input type="number" id="user-guess" min="1" max="10" placeholder="Ingresa un número">
+                            <button id="check-btn" class="btn">Intentar</button>
+                        </div>
+                        <button id="new-game-btn" class="btn btn-secondary">Nuevo juego</button>
+                        
+                        <div id="message" class="message"></div>
+                        <div id="attempts" class="attempts"></div>
+                    </div>
+                    
+                    <div class="game-image">
+                        <img src="image.png" alt="Juego del número mágico">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Desarrollado por Víctor Beltrand José - Matrícula: 23-EISN-2-054</p>
+        </div>
+    </footer>
+
+    <script src="numero-magico.js"></script>
+</body>
+</html>
